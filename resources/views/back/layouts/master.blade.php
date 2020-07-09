@@ -19,26 +19,26 @@
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
-    <!-- Font Awesome-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('back/assets/css/fontawesome.css') }}">
 
     <!-- Flag icon-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/flag-icon.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('back/assets/css/flag-icon.css') }}">
 
     <!-- ico-font-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/icofont.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('back/assets/css/icofont.css') }}">
 
     <!-- Prism css-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/prism.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('back/assets/css/prism.css') }}">
 
     <!-- Chartist css -->
-    <link rel="stylesheet" type="text/css" href="../assets/css/chartist.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('back/assets/css/chartist.css') }}">
 
     <!-- Bootstrap css-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('back/assets/css/bootstrap.css') }}">
 
     <!-- App css-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/admin.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('back/assets/css/admin.css') }}">
     <style type="text/css">
         .jqstooltip {
             position: absolute;
@@ -2032,62 +2032,68 @@
     </div>
 
     <!-- latest jquery-->
-    <script src="../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="{{ asset('back/assets/js/jquery-3.3.1.min.js') }}"></script>
+
 
     <!-- Bootstrap js-->
-    <script src="../assets/js/popper.min.js"></script>
-    <script src="../assets/js/bootstrap.js"></script>
+    <script src="{{ asset('back/assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('back/assets/js/bootstrap.js') }}"></script>
+
 
     <!-- feather icon js-->
-    <script src="../assets/js/icons/feather-icon/feather.min.js"></script>
-    <script src="../assets/js/icons/feather-icon/feather-icon.js"></script>
+    <script src="{{ asset('back/assets/js/icons/feather-icon/feather.min.js') }}"></script>
+    <script src="{{ asset('back/assets/js/icons/feather-icon/feather-icon.js') }}"></script>
+
 
     <!-- Sidebar jquery-->
-    <script src="../assets/js/sidebar-menu.js"></script>
+    <script src="{{ asset('back/assets/js/sidebar-menu.js') }}"></script>
+
 
     <!--chartist js-->
-    <script src="../assets/js/chart/chartist/chartist.js"></script>
+    <script src="{{ asset('back/assets/js/chart/chartist/chartist.js') }}"></script>
+
 
     <!--chartjs js-->
-    <script src="../assets/js/chart/chartjs/chart.min.js"></script>
+    <script src="{{ asset('back/assets/js/chart/chartjs/chart.min.js') }}../"></script>
 
     <!-- lazyload js-->
-    <script src="../assets/js/lazysizes.min.js"></script>
+    <script src="{{ asset('back/assets/js/lazysizes.min.js') }}"></script>
 
     <!--copycode js-->
-    <script src="../assets/js/prism/prism.min.js"></script>
-    <script src="../assets/js/clipboard/clipboard.min.js"></script>
-    <script src="../assets/js/custom-card/custom-card.js"></script>
+    <script src="{{ asset('back/assets/js/prism/prism.min.js') }}"></script>
+    <script src="{{ asset('back/assets/js/clipboard/clipboard.min.js') }}"></script>
+    <script src="{{ asset('back/assets/js/custom-card/custom-card.js') }}"></script>
 
     <!--counter js-->
-    <script src="../assets/js/counter/jquery.waypoints.min.js"></script>
-    <script src="../assets/js/counter/jquery.counterup.min.js"></script>
-    <script src="../assets/js/counter/counter-custom.js"></script>
+    <script src="{{ asset('back/assets/js/counter/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('back/assets/js/counter/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('back/assets/js/counter/counter-custom.js') }}"></script>
 
     <!--peity chart js-->
-    <script src="../assets/js/chart/peity-chart/peity.jquery.js"></script>
+    <script src="{{ asset('back/assets/js/chart/peity-chart/peity.jquery.js') }}"></script>
 
     <!--sparkline chart js-->
-    <script src="../assets/js/chart/sparkline/sparkline.js"></script>
+    <script src="{{ asset('back/assets/js/chart/sparkline/sparkline.js') }}"></script>
 
     <!--Customizer admin-->
-    <script src="../assets/js/admin-customizer.js"></script>
-    <div class="btn-light custom-theme">RTL</div>
+    <script src="{{ asset('back/assets/js/admin-customizer.js') }}"></script>
+    <div class="btn-light custom-theme" datasqstyle="{&quot;top&quot;:null}"
+        datasquuid="804246b9-cfcc-4aa9-8049-13812d3c2527" datasqtop="428" style="top: 428px;">RTL</div>
 
     <!--dashboard custom js-->
-    <script src="../assets/js/dashboard/default.js"></script>
+    <script src="{{ asset('back/assets/js/dashboard/default.js') }}"></script>
 
     <!--right sidebar js-->
-    <script src="../assets/js/chat-menu.js"></script>
+    <script src="{{ asset('back/assets/js/chat-menu.js') }}"></script>
 
     <!--height equal js-->
-    <script src="../assets/js/height-equal.js"></script>
+    <script src="{{ asset('back/assets/js/height-equal.js') }}"></script>
 
     <!-- lazyload js-->
-    <script src="../assets/js/lazysizes.min.js"></script>
+    <script src="{{ asset('back/assets/js/lazysizes.min.js') }}"></script>
 
     <!--script admin-->
-    <script src="../assets/js/admin-script.js"></script>
+    <script src="{{ asset('back/assets/js/admin-script.js') }}"></script>
 
 
 
